@@ -278,9 +278,11 @@ not the best choice, it can be much more difficult to think about and debug.
 ```js
 {
   function start_new_object(obj) {
-    // write this by building a new object from scratch
-    // the paramenter should only be used on the right side of =
-    // the new one should only be used on the left side of =
+   const new_object = new Object();
+   for (let key in obj){
+     new_object[key] = obj[key];
+     }
+     return new_object;
   } 
   
   const object = {a: 1, b: 2};
