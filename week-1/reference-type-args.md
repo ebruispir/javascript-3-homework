@@ -251,7 +251,9 @@ not the best choice, it can be much more difficult to think about and debug.
 ```js
 {
   function copy_object(obj) {
-    // write this
+   let obj_strified = JSON.stringify(obj);
+   let copy = JSON.parse(obj_strified);
+   return copy;
   }
 
   const object = {a: 1, b: 2};
