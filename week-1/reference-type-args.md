@@ -196,7 +196,9 @@ not the best choice, it can be much more difficult to think about and debug.
 ```js
 {
   function copy_array(arr) {
-    // write this
+   let arr_strified = JSON.stringify(arr);
+   let copy = JSON.parse(arr_strified);
+   return copy;
   }
 
   const array = ['a', 'b'];
