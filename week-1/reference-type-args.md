@@ -223,9 +223,11 @@ not the best choice, it can be much more difficult to think about and debug.
 ```js
 {
   function start_new_array(arr) {
-    // write this by building a new array from scratch
-    // the paramenter should only be used on the right side of =
-    // the new one should only be used on the left side of =
+    let new_arr= [];
+    for(let i=0;i<arr.length;i++){
+       new_arr.push(arr[i]);
+      }
+    return new_arr;
   }
 
   const array = ['a', 'b'];
