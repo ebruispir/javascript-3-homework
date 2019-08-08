@@ -6,7 +6,7 @@ complete these exercises from javascript.info and paste your solutions in to thi
 and here's another [helpful resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
 ## 1.Re-resolve a promise?
-*What’s the output of the code below?
+* What’s the output of the code below?
 
 ```js
 let promise = new Promise(function(resolve, reject) {
@@ -33,7 +33,7 @@ delay(3000).then(() => alert('runs after 3 seconds'));
 
 ```
 ## 3.Animated circle with promise
-*Rewrite the showCircle function in the solution of the task Animated circle with callback so that it returns a promise instead of accepting a callback.
+* Rewrite the showCircle function in the solution of the task Animated circle with callback so that it returns a promise instead of accepting a callback.
 
 
 ```js
@@ -69,11 +69,11 @@ function go() {
   }
 ```
 ## 4.Promise: then versus catch
-// Are these code fragments equal? In other words, do they behave the same way in any circumstances, for any handler functions?
+> Are these code fragments equal? In other words, do they behave the same way in any circumstances, for any handler functions?
 ```js
 promise.then(f1).catch(f2);
 ```
 ```js
 promise.then(f1, f2);
 ```
-// No, they are not the equal.First one has multiple handlers for one promise.In the second code piece there’s no chain below f1.
+>  No, they are not the equal.First one has multiple handlers for one promise.In the second code piece there’s no chain below f1.
