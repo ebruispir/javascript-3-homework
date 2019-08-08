@@ -18,7 +18,7 @@ let promise = new Promise(function(resolve, reject) {
 promise.then(alert);
 
 ```
-// Output = 1.The second call to resolve is ignored.The executor should call only one resolve or one reject.
+> Output = 1.The second call to resolve is ignored.The executor should call only one resolve or one reject.
 
 ## 2.Delay with a promise
 ```js
@@ -44,7 +44,7 @@ function go() {
     });
   }
 ```
-// Answer:
+> Answer:
 ```js
   function showCircle(cx, cy, radius) {
     let div = document.createElement('div');
