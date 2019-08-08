@@ -39,23 +39,24 @@
 
   setTimeout(function assert_a() {
       console.assert(x === "javascript", "exercise 1", "a");
-  }, null);
+  }, 16000);
 
   setTimeout(function append_lastname() {
       x += "script";
-  }, null);
+  }, 12000);
 
   setTimeout(function assert_b() {
       console.assert(x === "java", "exercise 1", "b");
-  }, null);
+  }, 8000);
 
   setTimeout(function append_firstname() {
       x += "java";
-  }, null);
+  }, 4000);
 
   setTimeout(function assert_c() {
       console.assert(x === "", "exercise 1", "c");
-  }, null);
+  }, 0);
+
 
 }
       </script>
