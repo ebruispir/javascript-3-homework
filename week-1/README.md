@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- |
 | :egg: __[reference type arguments](./reference-type-args.md)__ |:white_check_mark:  | | | |
 | :egg: __[closure: 0 & 1](../exercises-closure)__ |:white_check_mark: | | | |
-| :egg: __[event loop: 1 & 2](../exercises-event-loop)__ | | | | |
+| :egg: __[event loop: 1 & 2](../exercises-event-loop)__ |:white_check_mark: | | | |
 | :egg: __[promise practice](./promise-practice.md)__ | | | | | 
 | :egg: __[three-layer handlers](./three-layer-handlers)__ | | | | |
 | :hatching_chick: __[fetch data from APIs](./fetching-exercises)__ | | | | |
