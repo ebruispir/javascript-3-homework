@@ -1,1 +1,27 @@
+body {
+  margin: 2%;
+}
+
+#getCountries {
+  font-size: 1em;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+#dropdown {
+  margin-left: 20px;
+}
+i {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+img {
+  width: 100%;
+  margin-top: 3%;
+}
+#selectedCountry {
+  margin-top: 10px;
+  width: 400px;
+  height: 100px;
+  border: 1px;
+}
 
